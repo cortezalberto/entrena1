@@ -1,0 +1,161 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vista previa Tema 2</title><style>
+:root{--bg:#f4f5f7;--card:#fff;--ink:#1d2125;--mute:#5f6b7a;--line:#dee2e6;--code:#f6f8fa;--accent:#0f6cbf;--ok:#1e7e34;--okbg:#e6f4ea;--bad:#c62828;--badbg:#fdecea;--part:#b26a00;--partbg:#fff4e0}
+@media (prefers-color-scheme:dark){:root{--bg:#16181b;--card:#1f2226;--ink:#e6e8eb;--mute:#9aa4b1;--line:#343a40;--code:#262a2f;--accent:#5aa9f0;--ok:#6fcf86;--okbg:#1d3324;--bad:#ff8a80;--badbg:#3a2020;--part:#ffc061;--partbg:#3a2e17}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:24px 16px 60px}h1{font-size:22px;margin:0 0 4px}.sub-h{color:var(--mute);margin:0 0 20px}
+.q{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:0 0 20px;overflow:hidden}
+.q header{display:flex;gap:12px;align-items:baseline;padding:12px 18px;border-bottom:1px solid var(--line)}.qn{font-weight:700}.qname{color:var(--mute);flex:1}.pts{font-weight:600;color:var(--accent);white-space:nowrap}
+.qt,.fb,.res{padding:6px 18px}.qt ol li{margin:8px 0}
+pre{background:var(--code);border:1px solid var(--line);border-radius:6px;padding:12px;font:13.5px/1.6 Consolas,"Courier New",monospace;overflow-x:auto;white-space:pre}
+table{border-collapse:collapse;width:100%;margin:10px 0;display:block;overflow-x:auto}td,th{border:1px solid var(--line);padding:8px;vertical-align:top;text-align:left}
+select,input{font:inherit;font-size:14px;color:var(--ink);background:var(--card);border:1px solid #8f959e;border-radius:4px;padding:2px 4px;max-width:100%}pre input{font-family:Consolas,monospace;font-size:13px}
+td select{width:100%}.sub.ok select,.sub.ok input{border-color:var(--ok);background:var(--okbg)}.sub.bad select,.sub.bad input{border-color:var(--bad);background:var(--badbg)}
+.mark{font-size:12px;font-weight:700;margin-left:3px}.ok .mark{color:var(--ok)}.bad .mark{color:var(--bad)}
+.right{display:block;font-size:12px;color:var(--mute)}pre .right{display:inline;margin-left:6px}
+.fb{border-top:1px dashed var(--line);font-size:14px}.fb h4{margin:8px 0 4px}
+.res:empty{display:none}.res{padding:10px 18px;font-weight:600}.res.full{background:var(--okbg);color:var(--ok)}.res.part{background:var(--partbg);color:var(--part)}.res.zero{background:var(--badbg);color:var(--bad)}
+.bar{position:sticky;bottom:0;display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;box-shadow:0 4px 18px rgba(0,0,0,.12)}
+button{font:inherit;font-weight:600;border:0;border-radius:6px;padding:8px 16px;cursor:pointer;background:var(--accent);color:#fff}button.sec{background:transparent;color:var(--accent);border:1px solid var(--accent)}#total{margin-left:auto;font-weight:700}
+</style></head><body><div class="wrap"><h1>Parcial de POO en Java (TUP) · Tema 2</h1><p class="sub-h">Vista previa del archivo Moodle XML: 4 preguntas Cloze, 100 puntos. Respondé y tocá <b>Comprobar</b> para ver cómo califica.</p>
+<section class="q" data-max="24"><header><span class="qn">Pregunta 1</span><span class="qname">Parcial POO T2 - Ej. 1: Verdadero o Falso</span><span class="pts">24 pts</span></header>
+<div class="qt"><p><b>Ejercicio 1 (24 puntos).</b> Indicá si cada afirmación es Verdadera o Falsa (4 ptos. c/u).</p><ol><li>Una interface puede extender otra interface. <span class="sub"><select data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Verdadero&quot;]}"><option value=""></option><option>Verdadero</option><option>Falso</option></select></span></li><li>Al declarar una variable del tipo de una clase se crea un objeto de esa clase. <span class="sub"><select data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Falso&quot;]}"><option value=""></option><option>Verdadero</option><option>Falso</option></select></span></li><li>El calificador final aplicado a un atributo impide su reasignación. <span class="sub"><select data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Verdadero&quot;]}"><option value=""></option><option>Verdadero</option><option>Falso</option></select></span></li><li>Una clase abstracta no puede tener constructores. <span class="sub"><select data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Falso&quot;]}"><option value=""></option><option>Verdadero</option><option>Falso</option></select></span></li><li>El polimorfismo permite que un mismo mensaje se comporte diferente según el objeto. <span class="sub"><select data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Verdadero&quot;]}"><option value=""></option><option>Verdadero</option><option>Falso</option></select></span></li><li>Dos métodos en la misma clase pueden tener igual nombre e igual lista y tipo de parámetros. <span class="sub"><select data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Falso&quot;]}"><option value=""></option><option>Verdadero</option><option>Falso</option></select></span></li></ol></div><div class="fb" hidden><h4>Retroalimentación general</h4><ol><li><b>V</b> — Una interface puede extender una o varias interfaces con <code>extends</code>.</li><li><b>F</b> — Declarar la variable sólo crea una referencia (vale <code>null</code> si es atributo); el objeto se crea con <code>new</code>.</li><li><b>V</b> — Un atributo <code>final</code> se asigna una sola vez (en la declaración o en el constructor).</li><li><b>F</b> — Puede tenerlos: no se invocan con <code>new</code>, sino desde las subclases mediante <code>super(...)</code>.</li><li><b>V</b> — El método que se ejecuta se decide en ejecución según el tipo real del objeto (enlace dinámico).</li><li><b>F</b> — Tendrían la misma firma: es un error de compilación. La sobrecarga exige listas de parámetros distintas.</li></ol></div><div class="res"></div></section><section class="q" data-max="16"><header><span class="qn">Pregunta 2</span><span class="qname">Parcial POO T2 - Ej. 2: Respuesta corta</span><span class="pts">16 pts</span></header>
+<div class="qt"><p><b>Ejercicio 2 (16 puntos).</b> Respondé (4 ptos. c/u).</p><ol>
+<li>Palabra reservada de Java que se utiliza para indicar que una clase implementa una interfaz: <span class="sub"><input type="text" size="12" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;implements&quot;]}" autocomplete="off" spellcheck="false"></span></li>
+<li>Palabra reservada de Java que se utiliza para referenciar la instancia actual: <span class="sub"><input type="text" size="8" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;this&quot;]}" autocomplete="off" spellcheck="false"></span></li>
+<li>Calificador de Java utilizado para declarar atributos constantes: <span class="sub"><input type="text" size="8" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;final&quot;, &quot;static final&quot;, &quot;final static&quot;]}" autocomplete="off" spellcheck="false"></span></li>
+<li>Tipo de excepciones que deben capturarse obligatoriamente o declararse mediante <code>throws</code>: <span class="sub"><input type="text" size="9" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;checked&quot;, &quot;*checked*&quot;, &quot;*verificada*&quot;, &quot;*comprobada*&quot;, &quot;*chequeada*&quot;]}" autocomplete="off" spellcheck="false"></span></li></ol></div><div class="fb" hidden><h4>Retroalimentación general</h4><ol><li><code>implements</code> — <code>class A implements B</code>.</li><li><code>this</code> — referencia al objeto que está ejecutando el método.</li><li><code>final</code> — habitualmente junto con <code>static</code>: <code>public static final double PI = 3.14;</code></li><li>Excepciones <b>checked</b> (verificadas), por ejemplo <code>IOException</code> o <code>SQLException</code>. Las <code>RuntimeException</code> son unchecked.</li></ol></div><div class="res"></div></section><section class="q" data-max="30"><header><span class="qn">Pregunta 3</span><span class="qname">Parcial POO T2 - Ej. 3: Detección de errores</span><span class="pts">30 pts</span></header>
+<div class="qt"><p><b>Ejercicio 3 (30 puntos).</b> El siguiente programa tiene <b>tres</b> líneas que producen error. Para cada error, <b>en orden de aparición</b>, indicá: la línea (3 ptos.), la etapa en que se detecta (2 ptos.) y la causa (5 ptos.).</p>
+<pre> 1 | abstract class Vehiculo {
+ 2 |     protected String marca;
+ 3 |     private static int total = 0;
+ 4 |     public Vehiculo(String m) {
+ 5 |         this.marca = m;
+ 6 |         total++;
+ 7 |     }
+ 8 |     public static int getTotal() { return total; }
+ 9 |     public abstract int velocidadMax();
+10 |     public void mostrar() {
+11 |         System.out.println(marca + ": " + velocidadMax() + " km/h");
+12 |     }
+13 | }
+14 | class Auto extends Vehiculo {
+15 |     private int puertas;
+16 |     public Auto(String m, int p) {
+17 |         marca = m;
+18 |         puertas = p;
+19 |     }
+20 |     public int velocidadMax() { return 200; }
+21 | }
+22 | public class Main {
+23 |     public static void main(String[] args) {
+24 |         Vehiculo v = new Vehiculo("Ford");
+25 |         Vehiculo a = new Auto("Fiat", 4);
+26 |         a.mostrar();
+27 |         System.out.println(Vehiculo.total);
+28 |     }
+29 | }</pre>
+<table style="border-collapse:collapse" border="1" cellpadding="6"><tr><th></th><th>Línea</th><th>Etapa</th><th>Causa</th></tr>
+<tr><td><b>Error 1</b></td><td><span class="sub"><select data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;L\u00ednea 16&quot;]}"><option value=""></option><option>Línea 3</option><option>Línea 6</option><option>Línea 8</option><option>Línea 11</option><option>Línea 16</option><option>Línea 17</option><option>Línea 24</option><option>Línea 25</option><option>Línea 26</option><option>Línea 27</option></select></span></td><td><span class="sub"><select data-a="{&quot;w&quot;: 2, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Traducci\u00f3n (compilaci\u00f3n)&quot;]}"><option value=""></option><option>Traducción (compilación)</option><option>Ejecución</option></select></span></td><td><span class="sub"><select data-a="{&quot;w&quot;: 5, &quot;t&quot;: &quot;MULTICHOICE_S&quot;, &quot;ok&quot;: [&quot;Vehiculo no tiene constructor sin par\u00e1metros: falta invocar super(m)&quot;]}"><option value=""></option><option>Un Auto no puede asignarse a una variable de tipo Vehiculo</option><option>Vehiculo no tiene constructor sin parámetros: falta invocar super(m)</option><option>velocidadMax() es abstracto y no puede invocarse desde mostrar()</option><option>marca es protected y no puede asignarse desde Auto</option><option>No se puede instanciar una clase abstracta</option><option>total es private en Vehiculo: sólo puede accederse con getTotal()</option></select></span></td></tr><tr><td><b>Error 2</b></td><td><span class="sub"><select data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;L\u00ednea 24&quot;]}"><option value=""></option><option>Línea 3</option><option>Línea 6</option><option>Línea 8</option><option>Línea 11</option><option>Línea 16</option><option>Línea 17</option><option>Línea 24</option><option>Línea 25</option><option>Línea 26</option><option>Línea 27</option></select></span></td><td><span class="sub"><select data-a="{&quot;w&quot;: 2, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Traducci\u00f3n (compilaci\u00f3n)&quot;]}"><option value=""></option><option>Traducción (compilación)</option><option>Ejecución</option></select></span></td><td><span class="sub"><select data-a="{&quot;w&quot;: 5, &quot;t&quot;: &quot;MULTICHOICE_S&quot;, &quot;ok&quot;: [&quot;No se puede instanciar una clase abstracta&quot;]}"><option value=""></option><option>total es private en Vehiculo: sólo puede accederse con getTotal()</option><option>marca es protected y no puede asignarse desde Auto</option><option>No se puede instanciar una clase abstracta</option><option>velocidadMax() es abstracto y no puede invocarse desde mostrar()</option><option>Un Auto no puede asignarse a una variable de tipo Vehiculo</option><option>Vehiculo no tiene constructor sin parámetros: falta invocar super(m)</option></select></span></td></tr><tr><td><b>Error 3</b></td><td><span class="sub"><select data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;L\u00ednea 27&quot;]}"><option value=""></option><option>Línea 3</option><option>Línea 6</option><option>Línea 8</option><option>Línea 11</option><option>Línea 16</option><option>Línea 17</option><option>Línea 24</option><option>Línea 25</option><option>Línea 26</option><option>Línea 27</option></select></span></td><td><span class="sub"><select data-a="{&quot;w&quot;: 2, &quot;t&quot;: &quot;MULTICHOICE&quot;, &quot;ok&quot;: [&quot;Traducci\u00f3n (compilaci\u00f3n)&quot;]}"><option value=""></option><option>Traducción (compilación)</option><option>Ejecución</option></select></span></td><td><span class="sub"><select data-a="{&quot;w&quot;: 5, &quot;t&quot;: &quot;MULTICHOICE_S&quot;, &quot;ok&quot;: [&quot;total es private en Vehiculo: s\u00f3lo puede accederse con getTotal()&quot;]}"><option value=""></option><option>total es private en Vehiculo: sólo puede accederse con getTotal()</option><option>velocidadMax() es abstracto y no puede invocarse desde mostrar()</option><option>marca es protected y no puede asignarse desde Auto</option><option>Vehiculo no tiene constructor sin parámetros: falta invocar super(m)</option><option>No se puede instanciar una clase abstracta</option><option>Un Auto no puede asignarse a una variable de tipo Vehiculo</option></select></span></td></tr></table></div><div class="fb" hidden><h4>Retroalimentación general</h4><ol><li><b>Línea 16 — Traducción:</b> el compilador inserta <code>super()</code> implícito, pero <code>Vehiculo</code> sólo tiene <code>Vehiculo(String)</code>. Corrección: <code>super(m);</code> como primera sentencia (y entonces sobra <code>marca = m;</code>).</li>
+<li><b>Línea 24 — Traducción:</b> <code>Vehiculo</code> es abstracta y no puede instanciarse con <code>new</code>.</li>
+<li><b>Línea 27 — Traducción:</b> <code>total</code> es <code>private</code>; desde <code>Main</code> hay que usar <code>Vehiculo.getTotal()</code>.</li></ol>
+<p>La línea 17 es correcta: <code>marca</code> es <code>protected</code> y se hereda. La 25 también: polimorfismo, un <code>Auto</code> <i>es un</i> <code>Vehiculo</code>.</p></div><div class="res"></div></section><section class="q" data-max="30"><header><span class="qn">Pregunta 4</span><span class="qname">Parcial POO T2 - Ej. 4: Completar código</span><span class="pts">30 pts</span></header>
+<div class="qt"><p><b>Ejercicio 4 (30 puntos).</b> Completá los espacios para que el programa compile y produzca la salida indicada. En los cuadros de texto escribí exactamente el código Java; en los desplegables elegí la expresión correcta.</p>
+<pre>abstract class Producto {
+    protected String nombre;
+    protected double precio;
+    protected int cantidad;
+    public Producto(String nombre, double precio, int cantidad) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+    }
+    public abstract double calcular();
+    public void mostrar() {
+        System.out.println(nombre + ": $" + calcular());
+    }
+}
+class ProductoLocal <span class="sub"><input type="text" size="18" data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;extends Producto&quot;, &quot;extends*Producto&quot;]}" autocomplete="off" spellcheck="false"></span> {
+    public ProductoLocal(String nombre, double precio, int cant) {
+        <span class="sub"><input type="text" size="30" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;super(nombre, precio, cant);&quot;, &quot;super*(*nombre*,*precio*,*cant*)*&quot;]}" autocomplete="off" spellcheck="false"></span>
+    }
+    <span class="sub"><input type="text" size="26" data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;public double calcular()&quot;, &quot;public*double*calcular*(*)&quot;]}" autocomplete="off" spellcheck="false"></span> {
+        return <span class="sub"><select data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;MULTICHOICE_S&quot;, &quot;ok&quot;: [&quot;precio * cantidad&quot;]}"><option value=""></option><option>precio + cantidad</option><option>precio * cantidad * recargo</option><option>precio * cantidad</option><option>cantidad</option></select></span>;
+    }
+}
+class ProductoImportado <span class="sub"><input type="text" size="18" data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;extends Producto&quot;, &quot;extends*Producto&quot;]}" autocomplete="off" spellcheck="false"></span> {
+    private double recargo;
+    public ProductoImportado(String nombre, double precio,
+                             int cantidad, double recargo) {
+        <span class="sub"><input type="text" size="34" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;super(nombre, precio, cantidad);&quot;, &quot;super*(*nombre*,*precio*,*cantidad*)*&quot;]}" autocomplete="off" spellcheck="false"></span>
+        <span class="sub"><input type="text" size="25" data-a="{&quot;w&quot;: 4, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;this.recargo = recargo;&quot;, &quot;this.recargo*=*recargo*&quot;]}" autocomplete="off" spellcheck="false"></span>
+    }
+    <span class="sub"><input type="text" size="26" data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;SA&quot;, &quot;ok&quot;: [&quot;public double calcular()&quot;, &quot;public*double*calcular*(*)&quot;]}" autocomplete="off" spellcheck="false"></span> {
+        return <span class="sub"><select data-a="{&quot;w&quot;: 3, &quot;t&quot;: &quot;MULTICHOICE_S&quot;, &quot;ok&quot;: [&quot;precio * cantidad * (1 + recargo)&quot;]}"><option value=""></option><option>(precio + recargo) * cantidad</option><option>precio * cantidad * recargo</option><option>precio * cantidad + recargo</option><option>precio * cantidad * (1 + recargo)</option></select></span>;
+    }
+}
+public class Tienda {
+    public static void main(String[] args) {
+        Producto p1 = new ProductoLocal("Lapiz", 50.0, 3);
+        Producto p2 = new ProductoImportado("Mouse", 100.0, 2, 0.30);
+        p1.mostrar();
+        p2.mostrar();
+    }
+}</pre>
+<p><b>Salida esperada:</b></p><pre>Lapiz: $150.0
+Mouse: $260.0</pre>
+<p><i>Nota:</i> el recargo es un porcentaje (0.30 = 30%). Mouse: 100 × 2 × 1.30 = 260.</p></div><div class="fb" hidden><h4>Retroalimentación general</h4><p>Solución completa:</p><pre>abstract class Producto {
+    protected String nombre;
+    protected double precio;
+    protected int cantidad;
+    public Producto(String nombre, double precio, int cantidad) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.cantidad = cantidad;
+    }
+    public abstract double calcular();
+    public void mostrar() {
+        System.out.println(nombre + ": $" + calcular());
+    }
+}
+class ProductoLocal extends Producto {
+    public ProductoLocal(String nombre, double precio, int cant) {
+        super(nombre, precio, cant);
+    }
+    public double calcular() { return precio * cantidad; }
+}
+class ProductoImportado extends Producto {
+    private double recargo;
+    public ProductoImportado(String nombre, double precio, int cantidad, double recargo) {
+        super(nombre, precio, cantidad);
+        this.recargo = recargo;
+    }
+    public double calcular() {
+        return precio * cantidad * (1 + recargo);
+    }
+}
+public class Tienda {
+    public static void main(String[] args) {
+        Producto p1 = new ProductoLocal("Lapiz", 50.0, 3);
+        Producto p2 = new ProductoImportado("Mouse", 100.0, 2, 0.30);
+        p1.mostrar();
+        p2.mostrar();
+    }
+}
+</pre><p><code>calcular()</code> es abstracto en <code>Producto</code> y cada subclase lo implementa a su manera; <code>mostrar()</code> lo invoca por enlace dinámico. Los atributos <code>protected</code> permiten usar <code>precio</code> y <code>cantidad</code> directamente en las subclases.</p></div><div class="res"></div></section><div class="bar"><button id="chk">Comprobar</button><button class="sec" id="sol">Completar con la solución</button><button class="sec" id="clr">Reiniciar</button><span id="total"></span></div></div>
+<script>
+const esc=s=>s.replace(/[.+?^${}()|[\]\\]/g,"\\$&");
+const match=(v,a,cs)=>new RegExp("^"+a.split("*").map(esc).join(".*")+"$",cs?"":"i").test(v.trim());
+function grade(){let tot=0;document.querySelectorAll(".q").forEach(q=>{let got=0,max=0;
+ q.querySelectorAll("[data-a]").forEach(el=>{const a=JSON.parse(el.dataset.a);max+=a.w;const sp=el.parentElement;
+  sp.querySelectorAll(".mark,.right").forEach(x=>x.remove());
+  const ok=el.tagName=="SELECT"?a.ok.includes(el.value):a.ok.some(x=>match(el.value,x,a.t=="SAC"));
+  if(ok)got+=a.w;sp.className="sub "+(ok?"ok":"bad");
+  sp.insertAdjacentHTML("beforeend",`<span class="mark">${ok?"✓":"✗"}</span>`+(ok?"":`<span class="right">Correcta: ${a.ok[0].replace(/</g,"&lt;")}</span>`));});
+ const s=Math.round(got/max*q.dataset.max*100)/100;tot+=s;const r=q.querySelector(".res");
+ r.className="res "+(got==max?"full":got?"part":"zero");r.textContent=`Puntuación: ${s} de ${q.dataset.max}`;q.querySelector(".fb").hidden=false;});
+ document.getElementById("total").textContent=`Total: ${Math.round(tot*100)/100} / 100`;}
+document.getElementById("chk").onclick=grade;
+document.getElementById("sol").onclick=()=>{document.querySelectorAll("[data-a]").forEach(el=>el.value=JSON.parse(el.dataset.a).ok[0]);grade();};
+document.getElementById("clr").onclick=()=>{document.querySelectorAll("[data-a]").forEach(el=>{el.value="";el.parentElement.className="sub";el.parentElement.querySelectorAll(".mark,.right").forEach(x=>x.remove())});
+ document.querySelectorAll(".res").forEach(r=>{r.textContent="";r.className="res"});document.querySelectorAll(".fb").forEach(f=>f.hidden=true);document.getElementById("total").textContent="";};
+</script></body></html>
